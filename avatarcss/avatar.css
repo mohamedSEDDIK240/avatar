@@ -1,0 +1,26 @@
+*{margin: 0; padding: 0}
+a{color: white;text-decoration: none;}
+ a:hover{transform: rotate(90deg);}
+body{ height:100vh;background-image:linear-gradient(to right,#01022d76,#01022d);
+display: flex;justify-content: center;align-items: center;}
+.container{width:99%;height: 650px;background-position: center;
+background-image: linear-gradient(to right,#01022da9,#000000a2),url("../avatar.jpg");}
+.container:hover{background-image: linear-gradient(to right,#01022da9,transparent),url("../avatar.jpg");}
+header{display: flex;justify-content: space-between;align-items: center;padding: 10px;}
+.logo{font-size: 30px;text-transform: uppercase;
+animation: logo 25s  infinite ;} 
+@keyframes logo{
+    0%{color: blue;transform: translate(10px,10px);}
+    50%{color: red;transform: translate(50px,50px)}
+    100%{color:#00000000};transform: translate(100px,100px)}
+ul{list-style: none;display: flex;justify-content: space-evenly;width: 60%;}
+ul a{border-bottom: 2px solid transparent;}
+ul a:hover{border-bottom-color: white;}
+.content{width: 50%;margin-top: 50px;padding: 30px;color: white;}
+.content h2{font-size: 100px;text-transform: uppercase;}
+.content p{letter-spacing: 3px;width:350px ;padding: 20px 0;}
+.content button{font-size: 30px;padding: 6px 10px;border-radius: 10px;border: 2px solid transparent ;cursor: pointer;}
+.content button{background-color:transparent ;border-color: white;color: white;
+box-shadow: 10px 10px 10px gray;}
+.content button:hover{ border-color: white;color: rgba(2, 120, 2, 0.651);}
+.footer{color:antiquewhite ;display: flex;justify-content: flex-start;padding-top: 135px;padding-left: 650px;}
